@@ -1,0 +1,521 @@
+2025-02-13 16:43:57,477 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-02-13 16:43:57,477 - mcp_server - INFO - Server started on ws://localhost:8765
+2025-02-13 16:44:21,769 - websockets.server - INFO - connection open
+2025-02-13 16:45:11,819 - mcp_server - INFO - Client disconnected
+2025-02-13 16:52:31,445 - websockets.server - INFO - server listening on 127.0.0.1:8765
+2025-02-13 16:52:31,445 - mcp_server - INFO - Server started on ws://localhost:8765
+2025-02-13 16:52:45,528 - websockets.server - INFO - connection open
+2025-02-13 16:53:07,001 - mcp_server - INFO - Received message: command
+2025-02-13 16:53:07,006 - mcp_server - INFO - Executed command: ls
+2025-02-13 16:53:07,006 - mcp_server - INFO - Result: mcp_client.log
+mcp_client.py
+mcp_protocol.py
+mcp_server.log
+mcp_server.py
+__pycache__
+venv
+
+2025-02-13 16:53:21,847 - mcp_server - INFO - Received message: command
+2025-02-13 16:53:21,850 - mcp_server - INFO - Executed command: ```
+2025-02-13 16:53:21,850 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: EOF in backquote substitution
+
+2025-02-13 16:53:21,851 - mcp_server - INFO - Received message: command
+2025-02-13 16:53:21,864 - mcp_server - INFO - Executed command: uptime
+2025-02-13 16:53:21,864 - mcp_server - INFO - Result:  16:53:21 up 6 days, 8 min,  2 users,  load average: 0.27, 0.55, 0.69
+
+2025-02-13 16:53:21,864 - mcp_server - INFO - Received message: command
+2025-02-13 16:53:21,868 - mcp_server - INFO - Executed command: free -m
+2025-02-13 16:53:21,868 - mcp_server - INFO - Result:                total        used        free      shared  buff/cache   available
+Mem:           15716       11414         626        1745        5755        4301
+Swap:           4095        1435        2660
+
+2025-02-13 16:53:21,868 - mcp_server - INFO - Received message: command
+2025-02-13 16:53:21,871 - mcp_server - INFO - Executed command: df -h
+2025-02-13 16:53:21,871 - mcp_server - INFO - Result: Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           1.6G  2.9M  1.6G   1% /run
+/dev/nvme0n1p2  233G  170G   52G  77% /
+tmpfs           7.7G  243M  7.5G   4% /dev/shm
+tmpfs           5.0M   16K  5.0M   1% /run/lock
+efivarfs        374K  202K  168K  55% /sys/firmware/efi/efivars
+/dev/nvme0n1p1  1.1G  6.2M  1.1G   1% /boot/efi
+tmpfs           1.6G  164K  1.6G   1% /run/user/1000
+
+2025-02-13 16:53:21,871 - mcp_server - INFO - Received message: command
+2025-02-13 16:53:21,872 - mcp_server - INFO - Executed command: ```
+2025-02-13 16:53:21,872 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: EOF in backquote substitution
+
+2025-02-13 16:53:46,912 - mcp_server - INFO - Client disconnected
+2025-02-13 16:56:19,970 - websockets.server - INFO - connection open
+2025-02-13 16:57:10,020 - mcp_server - INFO - Client disconnected
+2025-02-13 17:01:10,996 - websockets.server - INFO - connection open
+2025-02-13 17:01:27,617 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,620 - mcp_server - INFO - Executed command: The command to display all processes on a Linux/Unix system is:
+2025-02-13 17:01:27,620 - mcp_server - INFO - Result: Error: /bin/sh: 1: The: not found
+
+2025-02-13 17:01:27,621 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,623 - mcp_server - INFO - Executed command: ```
+2025-02-13 17:01:27,624 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: EOF in backquote substitution
+
+2025-02-13 17:01:27,625 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,651 - mcp_server - INFO - Executed command: ps aux
+2025-02-13 17:01:27,651 - mcp_server - INFO - Result: USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0  23668 13824 ?        Ss   Feb07   0:27 /usr/lib/systemd/systemd --system --deserialize=152 splash
+root           2  0.0  0.0      0     0 ?        S    Feb07   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    Feb07   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-rcu_g]
+root           5  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-rcu_p]
+root           6  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-slub_]
+root           7  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-netns]
+root           9  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/0:0H-events_highpri]
+root          12  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-mm_pe]
+root          13  0.0  0.0      0     0 ?        I    Feb07   0:00 [rcu_tasks_kthread]
+root          14  0.0  0.0      0     0 ?        I    Feb07   0:00 [rcu_tasks_rude_kthread]
+root          15  0.0  0.0      0     0 ?        I    Feb07   0:00 [rcu_tasks_trace_kthread]
+root          16  0.0  0.0      0     0 ?        S    Feb07   0:27 [ksoftirqd/0]
+root          17  0.0  0.0      0     0 ?        I    Feb07   1:15 [rcu_preempt]
+root          18  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/0]
+root          20  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/0]
+root          21  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/1]
+root          22  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/1]
+root          23  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/1]
+root          24  0.0  0.0      0     0 ?        S    Feb07   0:02 [ksoftirqd/1]
+root          26  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/1:0H-events_highpri]
+root          27  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/2]
+root          28  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/2]
+root          29  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/2]
+root          30  0.0  0.0      0     0 ?        S    Feb07   0:00 [ksoftirqd/2]
+root          32  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/2:0H-events_highpri]
+root          33  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/3]
+root          34  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/3]
+root          35  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/3]
+root          36  0.0  0.0      0     0 ?        S    Feb07   0:00 [ksoftirqd/3]
+root          38  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/3:0H-events_highpri]
+root          39  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/4]
+root          40  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/4]
+root          41  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/4]
+root          42  0.0  0.0      0     0 ?        S    Feb07   0:00 [ksoftirqd/4]
+root          44  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/4:0H-events_highpri]
+root          45  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/5]
+root          46  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/5]
+root          47  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/5]
+root          48  0.0  0.0      0     0 ?        S    Feb07   0:00 [ksoftirqd/5]
+root          50  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/5:0H-events_highpri]
+root          51  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/6]
+root          52  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/6]
+root          53  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/6]
+root          54  0.0  0.0      0     0 ?        S    Feb07   0:00 [ksoftirqd/6]
+root          56  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/6:0H-events_highpri]
+root          57  0.0  0.0      0     0 ?        S    Feb07   0:00 [cpuhp/7]
+root          58  0.0  0.0      0     0 ?        S    Feb07   0:00 [idle_inject/7]
+root          59  0.0  0.0      0     0 ?        S    Feb07   0:01 [migration/7]
+root          60  0.0  0.0      0     0 ?        S    Feb07   0:00 [ksoftirqd/7]
+root          62  0.0  0.0      0     0 ?        I<   Feb07   0:02 [kworker/7:0H-kblockd]
+root          63  0.0  0.0      0     0 ?        S    Feb07   0:00 [kdevtmpfs]
+root          64  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-inet_]
+root          65  0.0  0.0      0     0 ?        S    Feb07   0:00 [kauditd]
+root          67  0.0  0.0      0     0 ?        S    Feb07   0:00 [khungtaskd]
+root          68  0.0  0.0      0     0 ?        S    Feb07   0:00 [oom_reaper]
+root          70  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-write]
+root          71  0.0  0.0      0     0 ?        S    Feb07   1:13 [kcompactd0]
+root          72  0.0  0.0      0     0 ?        SN   Feb07   0:00 [ksmd]
+root          73  0.0  0.0      0     0 ?        SN   Feb07   0:00 [khugepaged]
+root          74  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-kinte]
+root          75  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-kbloc]
+root          76  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-blkcg]
+root          77  0.1  0.0      0     0 ?        S    Feb07  11:24 [irq/9-acpi]
+root          80  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-tpm_d]
+root          81  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-ata_s]
+root          82  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-md]
+root          83  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-md_bi]
+root          84  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-edac-]
+root          85  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-devfr]
+root          87  0.0  0.0      0     0 ?        S    Feb07   0:00 [watchdogd]
+root          90  0.0  0.0      0     0 ?        I<   Feb07   0:03 [kworker/6:1H-kblockd]
+root          91  0.0  0.0      0     0 ?        S    Feb07   2:34 [kswapd0]
+root          92  0.0  0.0      0     0 ?        S    Feb07   0:00 [ecryptfs-kthread]
+root          93  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-kthro]
+root          94  0.0  0.0      0     0 ?        S    Feb07   0:00 [irq/124-pciehp]
+root          95  0.0  0.0      0     0 ?        S    Feb07   0:00 [irq/125-pciehp]
+root          99  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-acpi_]
+root         101  0.0  0.0      0     0 ?        S    Feb07   0:04 [hwrng]
+root         102  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-mld]
+root         103  0.0  0.0      0     0 ?        I<   Feb07   0:05 [kworker/2:1H-kblockd]
+root         104  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-ipv6_]
+root         111  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-kstrp]
+root         127  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-charg]
+root         150  0.0  0.0      0     0 ?        I<   Feb07   0:03 [kworker/4:1H-kblockd]
+root         155  0.0  0.0      0     0 ?        I<   Feb07   0:07 [kworker/1:1H-events_highpri]
+root         189  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/7:1H]
+root         190  0.0  0.0      0     0 ?        I<   Feb07   0:04 [kworker/5:1H-kblockd]
+root         191  0.0  0.0      0     0 ?        I<   Feb07   0:08 [kworker/0:1H-kblockd]
+root         192  0.0  0.0      0     0 ?        I<   Feb07   0:05 [kworker/3:1H-kblockd]
+root         224  0.0  0.0      0     0 ?        S    Feb07   0:15 [irq/179-DELL0A36:00]
+root         228  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_0]
+root         229  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         230  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_1]
+root         231  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         232  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_2]
+root         233  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         234  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_3]
+root         235  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         236  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_4]
+root         237  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         238  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_5]
+root         239  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         240  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_6]
+root         241  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         242  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_7]
+root         243  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         244  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_8]
+root         245  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         246  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_9]
+root         247  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         248  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_10]
+root         249  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         250  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_11]
+root         251  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         252  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_12]
+root         253  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         254  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_13]
+root         255  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         256  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_14]
+root         257  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         258  0.0  0.0      0     0 ?        S    Feb07   0:00 [scsi_eh_15]
+root         259  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-scsi_]
+root         264  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-nvme-]
+root         265  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-nvme-]
+root         266  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-nvme-]
+root         267  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-nvme-]
+root         270  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-USBC0]
+root         307  0.0  0.0      0     0 ?        S    Feb07   0:19 [jbd2/nvme0n1p2-8]
+root         308  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-ext4-]
+root         361  0.0  0.1  84420 31056 ?        S<s  Feb07   0:10 /usr/lib/systemd/systemd-journald
+root         413  0.0  0.0  30972  6260 ?        Ss   Feb07   0:02 /usr/lib/systemd/systemd-udevd
+root         458  0.0  0.0      0     0 ?        S    Feb07   0:00 [psimon]
+root         548  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-cfg80]
+root         550  0.0  0.0      0     0 ?        S    Feb07   1:11 [irq/192-iwlwifi:default_queue]
+root         551  0.0  0.0      0     0 ?        S    Feb07   0:12 [irq/193-iwlwifi:queue_1]
+root         552  0.0  0.0      0     0 ?        S    Feb07   0:18 [irq/194-iwlwifi:queue_2]
+root         553  0.0  0.0      0     0 ?        S    Feb07   0:12 [irq/195-iwlwifi:queue_3]
+root         554  0.0  0.0      0     0 ?        S    Feb07   0:18 [irq/196-iwlwifi:queue_4]
+root         555  0.0  0.0      0     0 ?        S    Feb07   0:25 [irq/197-iwlwifi:queue_5]
+root         556  0.0  0.0      0     0 ?        S    Feb07   0:11 [irq/198-iwlwifi:queue_6]
+root         557  0.0  0.0      0     0 ?        S    Feb07   0:16 [irq/199-iwlwifi:queue_7]
+root         558  0.0  0.0      0     0 ?        S    Feb07   0:23 [irq/200-iwlwifi:queue_8]
+root         559  0.0  0.0      0     0 ?        S    Feb07   0:00 [irq/201-iwlwifi:exception]
+root         563  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-USBC0]
+root         596  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-crypt]
+systemd+     721  0.0  0.0  17724  2816 ?        Ss   Feb07   1:00 /usr/lib/systemd/systemd-oomd
+systemd+     726  0.0  0.0  25408  7512 ?        Ss   Feb07   0:53 /usr/lib/systemd/systemd-resolved
+systemd+     729  0.0  0.0  91044  3456 ?        Ssl  Feb07   0:00 /usr/lib/systemd/systemd-timesyncd
+root         828  0.0  0.0      0     0 ?        I<   Feb07   0:00 [kworker/R-ttm]
+root         838  0.0  0.0      0     0 ?        S    Feb07   0:00 [card1-crtc0]
+root         839  0.0  0.0      0     0 ?        S    Feb07   0:00 [card1-crtc1]
+root         840  0.0  0.0      0     0 ?        S    Feb07   0:00 [card1-crtc2]
+root         841  0.0  0.0      0     0 ?        S    Feb07   0:00 [card1-crtc3]
+avahi        861  0.0  0.0   8956  1664 ?        Ss   Feb07   0:05 avahi-daemon: running [dell-Latitude-7422.local]
+message+     862  0.0  0.0  12500  4608 ?        Ss   Feb07   0:39 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+gnome-r+     865  0.0  0.0 512932  3744 ?        Ssl  Feb07   0:00 /usr/libexec/gnome-remote-desktop-daemon --system
+root         868  0.0  0.0 324088  5248 ?        Ssl  Feb07   0:19 /usr/libexec/iio-sensor-proxy
+polkitd      870  0.0  0.0 401356 11440 ?        Ssl  Feb07   0:08 /usr/lib/polkit-1/polkitd --no-debug
+root         890  0.0  0.0 322176  3660 ?        Ssl  Feb07   0:00 /usr/libexec/power-profiles-daemon
+root         905  0.0  0.1 1839164 31184 ?       Ssl  Feb07   0:39 /usr/lib/snapd/snapd
+root         912  0.0  0.0 322088  3648 ?        Ssl  Feb07   0:04 /usr/libexec/accounts-daemon
+root         913  0.0  0.0  18092  1280 ?        Ss   Feb07   0:00 /usr/sbin/cron -f -P
+root         915  0.0  0.0 318712  3968 ?        Ssl  Feb07   0:00 /usr/libexec/switcheroo-control
+root         917  0.0  0.0  18256  5872 ?        Ss   Feb07   0:03 /usr/lib/systemd/systemd-logind
+root         922  0.1  0.0 433580  4224 ?        Ssl  Feb07  12:56 /usr/sbin/thermald --systemd --dbus-enable --adaptive
+root         932  0.0  0.0 469488  6612 ?        Ssl  Feb07   0:03 /usr/libexec/udisks2/udisksd
+avahi        950  0.0  0.0   8476   652 ?        S    Feb07   0:00 avahi-daemon: chroot helper
+root         952  0.0  0.0  13700  3328 ?        Ss   Feb07   0:00 /usr/libexec/bluetooth/bluetoothd
+root         953  0.0  0.0  18400  7680 ?        Ss   Feb07   0:02 /usr/sbin/wpa_supplicant -u -s -O DIR=/run/wpa_supplicant GROUP=netdev
+root         978  0.0  0.0 419544 11736 ?        Ssl  Feb07   0:38 /usr/sbin/NetworkManager --no-daemon
+syslog       985  0.0  0.0 222564  1792 ?        Ssl  Feb07   0:02 /usr/sbin/rsyslogd -n -iNONE
+root        1085  0.0  0.0 392280  6512 ?        Ssl  Feb07   0:00 /usr/sbin/ModemManager
+root        1098  0.0  0.0 322296  4140 ?        Ssl  Feb07   0:00 /usr/libexec/boltd
+root        1259  0.0  0.0 329228  7552 ?        Ssl  Feb07   0:52 /usr/libexec/upowerd
+redis       1382  0.0  0.0  79132  2304 ?        Ssl  Feb07   6:02 /usr/bin/redis-server 127.0.0.1:6379
+root        1391  0.0  0.0 120900  1024 ?        Ssl  Feb07   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root        1394  0.0  0.0 2096764 15180 ?       Ssl  Feb07   2:10 /usr/bin/containerd
+root        1405  0.0  0.0 442976 13108 ?        Ssl  Feb07   0:16 /usr/bin/anydesk --service
+colord      1424  0.0  0.0 328888  7056 ?        Ssl  Feb07   0:00 /usr/libexec/colord
+root        1434  0.0  0.0 323620  5760 ?        Ssl  Feb07   0:00 /usr/sbin/gdm3
+root        1448  0.0  0.1 181948 28092 ?        Ss   Feb07   0:10 /usr/sbin/apache2 -k start
+postgres    1459  0.0  0.0 234900  5888 ?        Ss   Feb07   0:06 /usr/lib/postgresql/17/bin/postgres -D /var/lib/postgresql/17/main -c config_file=/etc/postgresql/17/main/postgresql.conf
+postgres    1484  0.0  0.0 235032  5764 ?        Ss   Feb07   0:00 postgres: 17/main: checkpointer 
+postgres    1485  0.0  0.0 235056  2180 ?        Ss   Feb07   0:01 postgres: 17/main: background writer 
+postgres    1487  0.0  0.0 234900  1668 ?        Ss   Feb07   0:02 postgres: 17/main: walwriter 
+postgres    1488  0.0  0.0 236476  3716 ?        Ss   Feb07   0:01 postgres: 17/main: autovacuum launcher 
+postgres    1489  0.0  0.0 236484  3716 ?        Ss   Feb07   0:00 postgres: 17/main: logical replication launcher 
+rtkit       1623  0.0  0.0  22940  2048 ?        SNsl Feb07   0:02 /usr/libexec/rtkit-daemon
+root        1805  0.0  0.0      0     0 ?        S<   Feb07   0:00 [krfcommd]
+root        1898  0.0  0.1 2213380 21304 ?       Ssl  Feb07   1:08 dockerd --group docker --exec-root=/run/snap.docker --data-root=/var/snap/docker/common/var-lib-docker --pidfile=/run/snap.docker/docker.pid --config-file=/var/snap/docker/2976/config/daemon.json
+root        2518  0.0  0.1 2212740 20824 ?       Ssl  Feb07   0:28 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+nx          2520  0.1  0.2 1530360 34804 ?       Ssl  Feb07  11:01 /usr/NX/bin/nxserver.bin --daemon
+kernoops    2523  0.0  0.0  12744  1324 ?        Ss   Feb07   0:00 /usr/sbin/kerneloops --test
+kernoops    2533  0.0  0.0  12744  1544 ?        Ss   Feb07   0:00 /usr/sbin/kerneloops
+root        2752  0.0  0.0 2170504 15076 ?       Ssl  Feb07   4:39 containerd --config /run/snap.docker/containerd/containerd.toml --log-level error
+nx          3180  0.0  0.0 773288   768 ?        Sl   Feb07   0:00 /usr/NX/bin/nxd
+root       13629  0.0  0.1 588836 27068 ?        Ssl  Feb07   0:14 /usr/libexec/fwupd/fwupd
+root      161397  0.0  0.0 398712  8996 ?        Sl   Feb11   0:00 gdm-session-worker [pam/gdm-password]
+dell      161417  0.0  0.0  21296 12772 ?        Ss   Feb11   0:01 /usr/lib/systemd/systemd --user
+dell      161424  0.0  0.0  21460  1932 ?        S    Feb11   0:00 (sd-pam)
+dell      161435  0.0  0.1 199100 19752 ?        S<sl Feb11   0:31 /usr/bin/pipewire
+dell      161436  0.0  0.0 106404  4480 ?        Ssl  Feb11   0:00 /usr/bin/pipewire -c filter-chain.conf
+dell      161439  0.0  0.1 416716 16408 ?        S<sl Feb11   0:00 /usr/bin/wireplumber
+dell      161441  0.0  0.4 182284 64552 ?        S<sl Feb11   0:48 /usr/bin/pipewire-pulse
+dell      161443  0.0  0.0 472780  8960 ?        SLsl Feb11   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+dell      161454  0.0  0.0  11340  6784 ?        Ss   Feb11   0:03 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+dell      161486  0.0  0.0 618960  6400 ?        Ssl  Feb11   0:00 /usr/libexec/xdg-document-portal
+dell      161497  0.0  0.0 317976  5248 ?        Ssl  Feb11   0:00 /usr/libexec/xdg-permission-store
+root      161505  0.0  0.0   2704  1920 ?        Ss   Feb11   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+dell      161539  0.0  0.0 244336  4992 tty2     Ssl+ Feb11   0:00 /usr/libexec/gdm-wayland-session env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --session=ubuntu
+dell      161554  0.0  0.0 306876 11264 tty2     Sl+  Feb11   0:00 /usr/libexec/gnome-session-binary --session=ubuntu
+dell      161627  0.0  0.0 162652  5376 ?        Ssl  Feb11   0:00 /usr/libexec/gcr-ssh-agent --base-dir /run/user/1000/gcr
+dell      161631  0.0  0.0 100216  4608 ?        Ssl  Feb11   0:00 /usr/libexec/gnome-session-ctl --monitor
+dell      161649  0.0  0.0 322928  6528 ?        Ssl  Feb11   0:00 /usr/libexec/gvfsd
+dell      161659  0.0  0.0 468380  6272 ?        Sl   Feb11   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+dell      161662  0.0  0.0 602880 12928 ?        Ssl  Feb11   0:00 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+dell      161706  0.0  0.0 382952  6656 ?        Sl   Feb11   0:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+dell      161707  0.6  1.5 5497456 248168 ?      Ssl  Feb11  17:25 /usr/bin/gnome-shell
+dell      161721  0.0  0.0   9608  4736 ?        S    Feb11   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+dell      161847  0.0  0.0 236068  6784 ?        Sl   Feb11   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+dell      161866  0.0  0.0 654784 13696 ?        Sl   Feb11   0:00 /usr/libexec/gnome-shell-calendar-server
+dell      161874  0.0  0.2 1272136 35328 ?       Ssl  Feb11   0:00 /usr/libexec/evolution-source-registry
+dell      161883  0.0  0.0 2933500 14564 ?       Sl   Feb11   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.Shell.Notifications
+dell      161894  0.0  0.0 397508  8668 ?        Ssl  Feb11   0:27 /usr/bin/ibus-daemon --panel disable
+dell      161896  0.0  0.0 392200  5888 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-a11y-settings
+dell      161900  0.0  0.0 421580 13052 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-color
+dell      161909  0.0  0.0 440348  9216 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-datetime
+dell      161917  0.0  0.0 398688 11264 ?        Ssl  Feb11   0:03 /usr/libexec/gsd-housekeeping
+dell      161925  0.0  0.0 420436 12800 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-keyboard
+dell      161933  0.0  0.1 594664 20352 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-media-keys
+dell      161938  0.0  0.1 601584 17792 ?        Ssl  Feb11   0:01 /usr/libexec/gsd-power
+dell      161942  0.0  0.0 332448  9600 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-print-notifications
+dell      161944  0.0  0.0 539752  5376 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-rfkill
+dell      161946  0.0  0.0 318228  5248 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-screensaver-proxy
+dell      161950  0.0  0.0 552008  9728 ?        Ssl  Feb11   0:05 /usr/libexec/gsd-sharing
+dell      161951  0.0  0.0 394500  6656 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-smartcard
+dell      161955  0.0  0.0 402320  7424 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-sound
+dell      161964  0.0  0.0 305492  6400 ?        Sl   Feb11   0:00 /usr/libexec/gsd-disk-utility-notify
+dell      161977  0.0  0.1 658728 20396 ?        Sl   Feb11   0:06 /usr/bin/anydesk --tray
+dell      161982  0.0  0.0 495140 12800 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-wacom
+dell      162007  0.0  0.3 970684 50992 ?        Sl   Feb11   0:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+dell      162047  0.0  0.0 245316  6016 ?        Sl   Feb11   0:00 /usr/libexec/ibus-memconf
+dell      162057  0.0  0.1 430156 17060 ?        Sl   Feb11   0:08 /usr/libexec/ibus-extension-gtk3
+dell      162074  0.0  0.0 319228  6144 ?        Sl   Feb11   0:00 /usr/libexec/ibus-portal
+dell      162111  0.0  0.0 555332 14848 ?        Sl   Feb11   0:00 /usr/libexec/goa-daemon
+dell      162125  0.0  0.0 398004  8832 ?        Ssl  Feb11   0:01 /usr/libexec/gvfs-udisks2-volume-monitor
+dell      162138  0.0  0.0 397796  6912 ?        Sl   Feb11   0:00 /usr/libexec/goa-identity-service
+dell      162147  0.0  0.1 1374568 18816 ?       Ssl  Feb11   0:00 /usr/libexec/evolution-calendar-factory
+dell      162155  0.0  0.0 398044  6656 ?        Ssl  Feb11   0:06 /usr/libexec/gvfs-afc-volume-monitor
+dell      162161  0.0  0.0 318440  5632 ?        Ssl  Feb11   0:00 /usr/libexec/gvfs-goa-volume-monitor
+dell      162168  0.0  0.0 319560  5888 ?        Ssl  Feb11   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+dell      162174  0.0  0.0 424872 11008 ?        Sl   Feb11   0:00 /usr/libexec/gsd-printer
+dell      162175  0.0  0.1 834096 24576 ?        Ssl  Feb11   0:00 /usr/libexec/evolution-addressbook-factory
+dell      162188  0.0  0.0 318592  5888 ?        Ssl  Feb11   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+dell      162202  0.1  0.4 720064 69304 ?        Sl   Feb11   4:57 /usr/bin/Xwayland :0 -rootless -noreset -accessx -core -auth /run/user/1000/.mutter-Xwaylandauth.F5KN12 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7 -byteswappedclients
+dell      162221  0.0  0.0 245440  6272 ?        Sl   Feb11   0:07 /usr/libexec/ibus-engine-simple
+dell      162244  0.0  0.0 230352  5248 ?        Ssl  Feb11   0:00 /usr/libexec/dconf-service
+dell      162254  0.0  0.0 618300  9600 ?        Sl   Feb11   0:00 /usr/libexec/gvfsd-trash --spawner :1.20 /org/gtk/gvfs/exec_spaw/0
+dell      162283  0.0  0.1 825024 30548 ?        SNsl Feb11   0:08 /usr/libexec/tracker-miner-fs-3
+dell      162287  0.0  0.0 710296 11540 ?        Ssl  Feb11   0:04 /usr/libexec/xdg-desktop-portal
+dell      162296  0.0  0.1 917960 23464 ?        Ssl  Feb11   0:00 /usr/libexec/xdg-desktop-portal-gnome
+dell      162314  0.0  0.1 2933424 16804 ?       Sl   Feb11   0:00 /usr/bin/gjs -m /usr/share/gnome-shell/org.gnome.ScreenSaver
+dell      162336  0.0  0.1 773832 21976 ?        Ssl  Feb11   0:00 /usr/libexec/gsd-xsettings
+dell      162367  0.0  0.1 426416 19428 ?        Ssl  Feb11   0:00 /usr/libexec/xdg-desktop-portal-gtk
+dell      162369  0.0  0.0 275900 15616 ?        Sl   Feb11   0:00 /usr/libexec/ibus-x11
+dell      162380  0.0  0.3 1179832 59500 ?       Sl   Feb11   0:20 /usr/libexec/mutter-x11-frames
+dell      162461  0.0  0.0  39128  1408 ?        Ss   Feb11   0:00 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+dell      162467  0.0  0.0 245148  5504 ?        Ssl  Feb11   0:00 /usr/libexec/gvfsd-metadata
+dell      162526  0.0  0.0 429712 12564 ?        Sl   Feb11   0:00 /snap/snapd-desktop-integration/253/usr/bin/snapd-desktop-integration
+root      162594  0.0  0.0   9776  5120 ?        S<   Feb11   0:00 /usr/NX/bin/nxexec --node --user dell --priority realtime --mode 0 --pid 48
+dell      162599  0.0  0.1 1699472 17920 ?       S<l  Feb11   0:05 /usr/NX/bin/nxnode.bin
+dell      162625  0.0  0.0 1122284 14848 ?       Sl   Feb11   0:19 /usr/NX/bin/nxrunner.bin --monitor --pid 162202
+dell      162875  0.0  0.1 577940 25144 ?        Sl   Feb11   0:03 /usr/bin/update-notifier
+dell      163461  0.5  2.9 34486672 470160 ?     SLl  Feb11  14:39 /opt/google/chrome/chrome
+dell      163467  0.0  0.0  17096  1792 ?        S    Feb11   0:00 cat
+dell      163468  0.0  0.0  17096  1792 ?        S    Feb11   0:00 cat
+dell      163470  0.0  0.0 33604296 10476 ?      Sl   Feb11   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/dell/.config/google-chrome/Crash Reports --metrics-dir=/home/dell/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.1 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=132.0.6834.83 --initial-client-fd=8 --shared-client-connection
+dell      163472  0.0  0.0 33568016 3072 ?       Sl   Feb11   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/dell/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 24.04.1 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=132.0.6834.83 --initial-client-fd=4 --shared-client-connection
+dell      163478  0.0  0.2 34206648 45184 ?      S    Feb11   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable
+dell      163479  0.0  0.2 34206636 48256 ?      S    Feb11   0:00 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable
+dell      163481  0.0  0.0 34206660 8688 ?       S    Feb11   0:02 /opt/google/chrome/chrome --type=zygote --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable
+dell      163506  0.6  1.0 35150068 162500 ?     Sl   Feb11  17:46 /opt/google/chrome/chrome --type=gpu-process --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163511  0.1  0.8 33987860 142492 ?     Sl   Feb11   4:01 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163521  0.0  0.3 34277044 52472 ?      Sl   Feb11   0:40 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163604  0.0  0.6 1216614924 107916 ?   Sl   Feb11   0:02 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60092874659 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163668  0.0  0.6 1216598336 107748 ?   Sl   Feb11   0:32 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=15 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60094021770 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163776  0.0  0.7 1216615128 121112 ?   Sl   Feb11   0:03 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=19 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60095162844 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163789  0.0  1.7 1220066364 282044 ?   Sl   Feb11   1:17 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=28 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60095397820 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163816  0.0  0.4 34034964 72012 ?      Sl   Feb11   2:24 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163931  0.1  2.6 1235529864 426944 ?   Sl   Feb11   4:20 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=40 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60102330903 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      163946  0.0  1.7 1216629760 283408 ?   Sl   Feb11   0:34 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=41 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60102869672 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164023  0.0  2.3 1235500460 385168 ?   Sl   Feb11   1:45 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=45 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60104092258 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164090  0.2  3.3 1235532324 532452 ?   Sl   Feb11   7:10 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=47 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60106599644 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164163  0.0  0.8 1216615580 135484 ?   Sl   Feb11   0:04 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=49 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60109020042 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164170  0.0  0.8 1216653280 137268 ?   Sl   Feb11   0:03 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=50 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60109033185 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164214  0.0  0.8 1216617164 143076 ?   Sl   Feb11   0:02 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=27 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60110173049 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164292  0.0  0.9 1216619632 151624 ?   Sl   Feb11   0:02 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=26 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60111708456 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164315  0.0  1.2 1218354872 199504 ?   Sl   Feb11   0:34 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=55 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60112384353 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164364  0.1  0.9 1216624604 155988 ?   Sl   Feb11   2:53 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=58 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60114004228 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      164699  0.4  1.1 1214360600 192676 ?   SLl  Feb11  12:47 /usr/share/code/code
+dell      164705  0.0  0.2 34060364 35584 ?      S    Feb11   0:00 /usr/share/code/code --type=zygote --no-zygote-sandbox
+dell      164706  0.0  0.2 34060356 38016 ?      S    Feb11   0:00 /usr/share/code/code --type=zygote
+dell      164708  0.0  0.0 34060384 7160 ?       S    Feb11   0:00 /usr/share/code/code --type=zygote
+dell      164727  0.0  0.0 33576916 2432 ?       Sl   Feb11   0:00 /usr/share/code/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-rate-limit --database=/home/dell/.config/Code/Crashpad --url=appcenter://code?aid=fba07a4d-84bd-4fc8-a125-9640fc8ce171&uid=2af79481-050c-4e6a-a69b-1982911d93d9&iid=2af79481-050c-4e6a-a69b-1982911d93d9&sid=2af79481-050c-4e6a-a69b-1982911d93d9 --annotation=_companyName=Microsoft --annotation=_productName=VSCode --annotation=_version=1.96.4 --annotation=lsb-release=Ubuntu 24.04.1 LTS --annotation=plat=Linux --annotation=prod=Electron --annotation=ver=32.2.6 --initial-client-fd=49 --shared-client-connection
+dell      164743  0.7  0.5 34880156 85872 ?      Sl   Feb11  22:26 /usr/share/code/code --type=gpu-process --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --gpu-preferences=UAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAABAAAAAAAAAAEAAAAAAAAAAIAAAAAAAAAAgAAAAAAAAA --shared-files --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164748  0.0  0.3 33882468 58884 ?      Sl   Feb11   0:48 /usr/share/code/code --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164782  1.3  1.3 1214298924 216436 ?   Sl   Feb11  37:25 /usr/share/code/code --type=renderer --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60220730162 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:ef3ebb9f-6ab7-4dec-b8a8-ca274910ef9c
+dell      164790  0.5  1.4 1214282888 237592 ?   Sl   Feb11  15:50 /usr/share/code/code --type=renderer --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60220766059 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:212e8db5-e711-435f-92dd-f857f82f5493
+dell      164798  0.4  2.0 1218103600 333968 ?   Sl   Feb11  13:54 /usr/share/code/code --type=renderer --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=6 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=60220791339 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:74c16dff-3888-4661-b564-0cbdf2f5bdf4
+dell      164876  0.2  2.8 1217768620 466000 ?   Sl   Feb11   6:23 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164877  0.2  4.1 1221580148 675480 ?   Sl   Feb11   6:58 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164886  0.2  2.9 1221578964 472156 ?   Sl   Feb11   6:24 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164907  0.0  0.7 1213951836 113024 ?   Sl   Feb11   1:33 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164909  0.0  0.4 1213968340 77852 ?    Sl   Feb11   0:53 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164914  0.0  0.4 1213968340 77896 ?    Sl   Feb11   0:46 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      164931  0.0  0.4 1213968340 78972 ?    Sl   Feb11   0:56 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      165029  0.2  0.6 1214050740 97216 ?    Sl   Feb11   7:00 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      165361  0.0  0.0  20124  3968 pts/4    Ss+  Feb11   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      165481  0.0  0.0  20028  3840 pts/5    Ss+  Feb11   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      165565  0.0  0.0  20028  3840 pts/6    Ss+  Feb11   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      165597  0.0  0.0  20124  3968 pts/7    Ss+  Feb11   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      165727  0.0  0.6 1213910508 112612 ?   Sl   Feb11   0:13 /usr/share/code/code /home/dell/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist/server.bundle.js --cancellationReceive=file:00dc19d4b56287371c5c0b5dbe087594b14e5d65a5 --node-ipc --clientProcessId=164876
+dell      165751  0.0  1.2 1213910508 201544 ?   Sl   Feb11   0:19 /usr/share/code/code /home/dell/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist/server.bundle.js --cancellationReceive=file:f02d6f14cea898b022e71a91b226d2ded6b96e388f --node-ipc --clientProcessId=164886
+dell      165837  0.0  0.0  20124  3840 pts/8    Ss+  Feb11   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      168750  0.0  0.0 280552  4680 ?        Ssl  Feb11   0:00 /snap/firmware-updater/167/bin/firmware-notifier
+root      326333  0.0  0.0      0     0 ?        S    09:38   0:00 [irq/191-mei_me]
+www-data  326725  0.0  0.0 182704 13084 ?        S    09:38   0:00 /usr/sbin/apache2 -k start
+www-data  326726  0.0  0.0 182704 12956 ?        S    09:38   0:00 /usr/sbin/apache2 -k start
+www-data  326728  0.0  0.0 182704 13084 ?        S    09:38   0:00 /usr/sbin/apache2 -k start
+www-data  326731  0.0  0.0 182704 13084 ?        S    09:38   0:00 /usr/sbin/apache2 -k start
+www-data  326732  0.0  0.0 182704 12956 ?        S    09:38   0:00 /usr/sbin/apache2 -k start
+root      326741  0.0  0.0  39212 10368 ?        Ss   09:38   0:00 /usr/sbin/cupsd -l
+cups-br+  326743  0.0  0.1 432692 21252 ?        Ssl  09:38   0:00 /usr/sbin/cups-browsed
+lp        327956  0.0  0.0  16836  6272 ?        S    09:40   0:00 /usr/lib/cups/notifier/dbus dbus://
+dell      331360  2.8  4.2 1223539116 678600 ?   Sl   10:13  11:48 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=747 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=157984668336 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      331378  0.0  0.6 1216589432 110092 ?   Sl   10:13   0:06 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --extension-process --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=748 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=157984688788 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      331558  0.0  0.0  11448  5632 pts/9    Ss+  10:14   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      331600  0.5  2.4 1213910524 388052 ?   Sl   10:14   2:06 /usr/share/code/code /home/dell/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist/server.bundle.js --cancellationReceive=file:7a7da3294f2e58e27576410c88747446cd378b55c0 --node-ipc --clientProcessId=164877
+dell      331610  0.0  0.0  11448  5632 pts/10   Ss+  10:14   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      332948  0.2  2.4 1225212300 389820 ?   Sl   10:19   0:56 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=765 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=158380969919 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      333362  0.0  0.5 1211968024 85084 ?    Sl   10:22   0:01 /usr/share/code/code /home/dell/.vscode/extensions/ms-azuretools.vscode-cosmosdb-0.24.2/mongo-languageServer.bundle.js --node-ipc --clientProcessId=164877
+dell      333715  0.7  0.9 1216609008 151440 ?   Sl   10:24   3:06 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=783 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=158654351123 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      333816  0.0  0.7 1216622740 121308 ?   Sl   10:25   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=785 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=158709930787 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      347440  3.2  2.8 1235528848 463252 ?   Sl   12:13   9:28 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=860 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=165227325789 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      347647  0.0  0.5 2081356 87808 ?       Sl   12:14   0:04 /usr/bin/nautilus --gapplication-service
+dell      347674  0.0  0.0 390408  9420 ?        Sl   12:14   0:00 /usr/libexec/gvfsd-recent --spawner :1.20 /org/gtk/gvfs/exec_spaw/1
+dell      349276  0.0  0.0  11580  5632 pts/12   Ss   12:20   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      349795  2.4  2.3 1232067512 377556 ?   Sl   12:23   6:41 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=892 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=165819016245 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      351552  0.1  1.2 1218374348 203164 ?   Sl   12:33   0:17 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=915 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=166414470350 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      352861  0.0  1.3 1218334116 211524 ?   Sl   12:41   0:08 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=925 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=166921470273 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      352997  0.0  0.2 701664 45800 ?        Ssl  12:42   0:02 /usr/libexec/gnome-terminal-server
+dell      353005  0.0  0.0  11336  5376 pts/13   Ss+  12:42   0:00 bash
+dell      353038  0.0  0.0  11336  5504 pts/14   Ss+  12:43   0:00 bash
+dell      353096  0.0  0.0   8432  5760 ?        S    12:43   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+dell      353202  0.0  0.9 1216612108 148748 ?   Sl   12:43   0:10 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=932 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=167033356251 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      353254  0.0  1.1 1216638788 177076 ?   Sl   12:44   0:06 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=936 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=167053805473 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      353395  1.1  2.5 1214300492 407520 ?   Sl   12:44   2:58 /usr/share/code/code --type=renderer --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --app-path=/usr/share/code/resources/app --enable-sandbox --enable-blink-features=HighlightAPI --disable-blink-features=FontMatchingCTMigration,StandardizedBrowserZoom, --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=19 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=167069090092 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version --vscode-window-config=vscode:d9254f29-7b00-47df-a5ed-dd501ed56e7f
+dell      353430  0.0  0.6 1213959672 97656 ?    Sl   12:44   0:09 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      353440  0.3  3.7 1221572048 599944 ?   Sl   12:44   0:49 /usr/share/code/code --type=utility --utility-sub-type=node.mojom.NodeService --lang=en-US --service-sandbox-type=none --dns-result-order=ipv4first --inspect-port=0 --crashpad-handler-pid=164727 --enable-crash-reporter=06c52832-2b4a-4e11-af1f-e9f99ff94281,no_channel --user-data-dir=/home/dell/.config/Code --standard-schemes=vscode-webview,vscode-file --enable-sandbox --secure-schemes=vscode-webview,vscode-file --cors-schemes=vscode-webview,vscode-file --fetch-schemes=vscode-webview,vscode-file --service-worker-schemes=vscode-webview --code-cache-schemes=vscode-webview,vscode-file --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,1518650723224478183,8262832545133875509,262144 --disable-features=CalculateNativeWinOcclusion,PlzDedicatedWorker,SpareRendererForSitePerProcess --variations-seed-version
+dell      353493  0.0  0.0  11356  5504 pts/15   Ss+  12:44   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      353694  0.1  1.5 1213910508 252436 ?   Sl   12:44   0:21 /usr/share/code/code /home/dell/.vscode/extensions/ms-python.vscode-pylance-2025.2.1/dist/server.bundle.js --cancellationReceive=file:3a041efc641157985aa76ef1c7cb24cc6899a22af8 --node-ipc --clientProcessId=353440
+dell      353762  0.0  0.0  11492  5504 pts/16   Ss+  12:44   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+dell      354925  0.0  0.0 320052  9600 ?        Sl   12:47   0:00 /usr/libexec/gvfsd-http --spawner :1.20 /org/gtk/gvfs/exec_spaw/2
+dell      357246  0.0  0.7 1211968016 123504 ?   Sl   13:06   0:01 /usr/share/code/code --max-old-space-size=3072 /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --serverMode partialSemantic --useInferredProjectPerProjectRoot --disableAutomaticTypingAcquisition --cancellationPipeName /tmp/vscode-typescript1000/ee6d9d26e9138c1ff7bd/tscancellation-f5eb3bb012e085c6d4e5.tmp* --globalPlugins @vscode/copilot-typescript-server-plugin --pluginProbeLocations /home/dell/.vscode/extensions/github.copilot-chat-0.23.2 --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc
+dell      357247  0.0  0.8 1211968016 140532 ?   Sl   13:06   0:03 /usr/share/code/code --max-old-space-size=3072 /usr/share/code/resources/app/extensions/node_modules/typescript/lib/tsserver.js --useInferredProjectPerProjectRoot --enableTelemetry --cancellationPipeName /tmp/vscode-typescript1000/ee6d9d26e9138c1ff7bd/tscancellation-c6ea2dfcab95cff20fd9.tmp* --globalPlugins @vscode/copilot-typescript-server-plugin --pluginProbeLocations /home/dell/.vscode/extensions/github.copilot-chat-0.23.2 --locale en --noGetErrOnBackgroundUpdate --canUseWatchEvents --validateDefaultNpmLocation --useNodeIpc
+dell      357267  0.0  0.5 1211968000 94508 ?    Sl   13:06   0:00 /usr/share/code/code /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typingsInstaller.js --globalTypingsCacheLocation /home/dell/.cache/typescript/5.7 --enableTelemetry --typesMapLocation /usr/share/code/resources/app/extensions/node_modules/typescript/lib/typesMap.json --validateDefaultNpmLocation
+dell      362954  0.0  0.8 1211968016 132448 ?   Sl   13:59   0:02 /usr/share/code/code /usr/share/code/resources/app/extensions/html-language-features/server/dist/node/htmlServerMain --node-ipc --clientProcessId=353440
+root      367693  0.0  0.0      0     0 ?        I    14:44   0:01 [kworker/5:1-mm_percpu_wq]
+dell      371588  0.0  1.1 1216602180 192760 ?   Sl   15:12   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1028 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=175928361857 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      371599  0.0  0.6 1216598344 102044 ?   Sl   15:12   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1029 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=175928902704 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      371645  0.0  0.6 1216612324 110300 ?   Sl   15:12   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --enable-dinosaur-easter-egg-alt-images --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1030 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=175934293066 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      375614  0.6  2.0 1216684204 327720 ?   Sl   15:36   0:33 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1053 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=177418918539 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      376694  0.1  0.8 1885224 144748 ?      Sl   15:42   0:05 /usr/bin/gnome-control-center wifi
+dell      376758  5.7  2.9 1235506032 474960 ?   Sl   15:42   4:31 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1081 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=177751208174 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      376780  0.0  1.1 1216607848 187160 ?   Sl   15:42   0:01 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1082 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=177752981306 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+dell      376830  1.5  1.0 1216627324 176364 ?   Sl   15:42   1:12 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1084 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=177757449037 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+root      376878  0.1  0.0      0     0 ?        I    15:42   0:07 [kworker/0:1-i915-unordered]
+root      378810  0.0  0.0      0     0 ?        I    15:55   0:01 [kworker/u16:0-events_unbound]
+root      380718  0.0  0.0      0     0 ?        I    16:11   0:00 [kworker/2:0-events]
+dell      381559  0.0  0.4 3224492 77068 ?       Sl   16:19   0:01 gjs /usr/share/gnome-shell/extensions/ding@rastersoft.com/app/ding.js -E -P /usr/share/gnome-shell/extensions/ding@rastersoft.com/app
+root      382201  0.0  0.0      0     0 ?        I    16:22   0:00 [kworker/3:0-events]
+root      383377  0.0  0.0      0     0 ?        I    16:30   0:00 [kworker/4:2-mm_percpu_wq]
+root      383430  0.1  0.0      0     0 ?        D<   16:31   0:01 [kworker/u17:2+i915_flip]
+root      386611  0.0  0.0      0     0 ?        I    16:34   0:00 [kworker/u16:16-events_power_efficient]
+root      386913  0.0  0.0      0     0 ?        S    16:34   0:00 [psimon]
+root      387016  0.0  0.0   4784  3328 ?        Ss   16:34   0:00 /bin/bash /snap/ollama/27/bin/snap_launcher.sh serve
+root      387078  2.8  1.5 2431660 243128 ?      Sl   16:34   0:44 /snap/ollama/27/bin/ollama serve
+root      387264  0.0  0.0      0     0 ?        I    16:35   0:00 [kworker/7:0-i915-unordered]
+root      388829  0.0  0.0      0     0 ?        I    16:39   0:00 [kworker/1:2-events]
+root      389200  0.0  0.0      0     0 ?        I<   16:41   0:01 [kworker/u17:3-i915_flip]
+root      389437  0.0  0.0      0     0 ?        I    16:42   0:00 [kworker/4:1-cgroup_destroy]
+root      390027  0.0  0.0      0     0 ?        I    16:45   0:00 [kworker/1:0-events]
+root      390533  0.0  0.0      0     0 ?        I    16:48   0:00 [kworker/u16:1-flush-259:0]
+dell      391211  0.0  0.1 112100 26624 pts/12   Sl+  16:52   0:00 python3 mcp_server.py
+root      391217  0.0  0.0      0     0 ?        I    16:52   0:00 [kworker/2:1]
+dell      391254  0.0  0.0  11576  5632 pts/17   Ss   16:52   0:00 /usr/bin/bash --init-file /usr/share/code/resources/app/out/vs/workbench/contrib/terminal/common/scripts/shellIntegration-bash.sh
+root      391598  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/6:0-events]
+root      391615  0.0  0.0      0     0 ?        I    16:53   0:00 [kworker/5:0]
+root      391711  0.0  0.0      0     0 ?        I    16:54   0:00 [kworker/0:2-mm_percpu_wq]
+root      391793  0.0  0.0      0     0 ?        I    16:54   0:00 [kworker/3:1]
+root      391867  0.0  0.0      0     0 ?        I    16:54   0:00 [kworker/7:2]
+root      391965  0.0  0.0      0     0 ?        I    16:55   0:00 [kworker/6:2-events]
+root      392476  0.0  0.0      0     0 ?        I<   16:57   0:00 [kworker/u17:0-rb_allocator]
+root      392563  0.0  0.0      0     0 ?        I    16:58   0:00 [kworker/1:1-mm_percpu_wq]
+dell      392757  0.0  0.4 1216565484 65428 ?    Sl   16:59   0:00 /opt/google/chrome/chrome --type=renderer --string-annotations --crashpad-handler-pid=163470 --enable-crash-reporter=0ebfe1c3-4a0c-46d0-a2fb-7cdc3cb6b6f7, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=1143 --time-ticks-at-unix-epoch=-1739217067608467 --launch-time-ticks=182353821600 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=3,i,2753786922746518438,10378777891089940868,262144 --disable-features=EyeDropper --variations-seed-version
+root      392893  0.0  0.0      0     0 ?        I    16:59   0:00 [kworker/0:0]
+root      392911  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/u16:2]
+root      392919  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/4:0]
+root      392920  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/4:3-events]
+root      393003  0.0  0.0      0     0 ?        I<   17:00   0:00 [kworker/u17:1]
+root      393043  0.0  0.0      0     0 ?        I    17:00   0:00 [kworker/2:2]
+root      393116  0.0  0.0      0     0 ?        I    17:01   0:00 [kworker/6:1]
+dell      393128  1.6  0.2 133868 47424 pts/17   Sl+  17:01   0:00 python3 mcp_client.py
+dell      393245  0.0  0.0   2804  1664 pts/12   S+   17:01   0:00 /bin/sh -c ps aux
+dell      393246  100  0.0  13884  4864 pts/12   R+   17:01   0:00 ps aux
+
+2025-02-13 17:01:27,652 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,653 - mcp_server - INFO - Executed command: ```
+2025-02-13 17:01:27,653 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: EOF in backquote substitution
+
+2025-02-13 17:01:27,654 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,654 - mcp_server - INFO - Executed command: This command will show all processes currently running on the system, along with various information about each process, such as the process ID (PID), the parent process ID (PPID), the user who started the process, the amount of CPU and memory used by the process, and the command used to start the process.
+2025-02-13 17:01:27,654 - mcp_server - INFO - Result: Error: Command contains blocked operations
+2025-02-13 17:01:27,654 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,655 - mcp_server - INFO - Executed command: On a Windows system, you can use the Task Manager to view a list of all running processes. To open the Task Manager, press the Ctrl + Shift + Esc keys simultaneously. Alternatively, you can use the following command in the Command Prompt:
+2025-02-13 17:01:27,655 - mcp_server - INFO - Result: Error: /bin/sh: 1: On: not found
+
+2025-02-13 17:01:27,655 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,656 - mcp_server - INFO - Executed command: ```
+2025-02-13 17:01:27,656 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: EOF in backquote substitution
+
+2025-02-13 17:01:27,656 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,657 - mcp_server - INFO - Executed command: tasklist
+2025-02-13 17:01:27,657 - mcp_server - INFO - Result: Error: /bin/sh: 1: tasklist: not found
+
+2025-02-13 17:01:27,658 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,659 - mcp_server - INFO - Executed command: ```
+2025-02-13 17:01:27,659 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: EOF in backquote substitution
+
+2025-02-13 17:01:27,659 - mcp_server - INFO - Received message: command
+2025-02-13 17:01:27,660 - mcp_server - INFO - Executed command: This command will display a list of all running processes, along with the process ID (PID) and the name of the process.
+2025-02-13 17:01:27,660 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: "(" unexpected
+
+2025-02-13 17:02:01,030 - mcp_server - INFO - Client disconnected
+2025-02-13 17:06:44,292 - websockets.server - INFO - connection open
+2025-02-13 17:07:01,669 - mcp_server - INFO - Received message: command
+2025-02-13 17:07:01,671 - mcp_server - INFO - Executed command: Command:
+2025-02-13 17:07:01,671 - mcp_server - INFO - Result: Error: /bin/sh: 1: Command:: not found
+
+2025-02-13 17:07:01,672 - mcp_server - INFO - Received message: command
+2025-02-13 17:07:01,678 - mcp_server - INFO - Executed command: `free -h`
+2025-02-13 17:07:01,678 - mcp_server - INFO - Result: Error: /bin/sh: 1: total: not found
+
+2025-02-13 17:07:01,679 - mcp_server - INFO - Received message: command
+2025-02-13 17:07:01,681 - mcp_server - INFO - Executed command: This command displays the total amount of free and used physical and swap memory in the system, as well as the buffers and caches used by the kernel. The `-h` option makes the output human-readable by providing sizes in automatically scaled units (KB, MB, GB).
+2025-02-13 17:07:01,681 - mcp_server - INFO - Result: Error: /bin/sh: 1: Syntax error: "(" unexpected
+
+2025-02-13 17:07:34,326 - mcp_server - INFO - Client disconnected
